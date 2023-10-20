@@ -1,0 +1,54 @@
+train_data_root: D:\Projects and Training\Projects\floor plan\dataset\dataset\pickle\train
+val_data_root: D:\Projects and Training\Projects\floor plan\dataset\dataset\pickle\val
+save_log_root: log
+result_file: result_living.csv
+module_name: living
+model_name: resnet34_fc1
+load_model_path: None
+load_connect_path: None
+mask_size: 9
+multi_GPU: False
+batch_size: 16
+num_workers: 2
+print_freq: 300
+max_epoch: 300
+current_epoch: 0
+save_freq: 50
+val_freq: 5
+update_lr: True
+lr_decay_freq: 30
+lr_base: 0.0001
+weight_decay: 0.0001
+parse: <bound method LivingConfig.parse of <config_living.LivingConfig object at 0x00000178DD96DA80>>
+Training start time: Oct 20 2023 13:45:49
+Building model...
+Building dataset...
+Building data loader...
+Building criterion and optimizer...
+Starting to train...
+
+Training epoch: 1
+loss 74.13238
+loss 48.39147
+loss 36.89139
+loss 27.95836
+loss 20.22199
+loss 15.28788
+loss 12.69644
+loss 11.96378
+loss 11.29944
+loss 11.17175
+loss 11.14345
+loss 10.95348
+loss 10.80465
+Average Loss: 22.85744
+
+Training epoch: 2
+loss 10.40325
+loss 10.47281
+loss 10.21055
+loss 10.12944
+loss 10.18387
+loss 10.04552
+loss 9.92381
+loss 9.49989
